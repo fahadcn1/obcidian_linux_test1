@@ -1,0 +1,9 @@
+# Obsidian UI state — changes constantly and is machine-specific
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/graph.json
+
+# Debug outputs from projects (if ever copied into vault)
+debug/
+__pycache__/
+*.pyc
