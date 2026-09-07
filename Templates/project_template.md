@@ -40,15 +40,20 @@ One-paragraph summary of what this project does and why it exists.
 
 ---
 
-## Notes
+## Key Design Notes
 
-- Key design decisions
-- Gotchas
-- TODOs
+- Short bullet per important decision or gotcha.
+
+---
+
+## Recent Changes
+
+- YYYY-MM-DD: Initial note created.
 
 ---
 
 ## Related
 
-- [[../README]]
-- [[../AGENTS.md]]
+- [[README]]
+- [[LLM.md]]
+- [[AGENTS.md]]

@@ -7,22 +7,18 @@ tags: [index, llm-context, projects, vault-root]
 
 # Linux Project Vault
 
-This vault tracks Linux-based personal projects, research, and reference material. It is designed so that any LLM (or future me) can read this one note and immediately know what is being worked on.
+**Purpose**: Track Linux-based personal projects, reference material, and daily logs across machines.
 
-> **For LLMs**: Start here. Read this index, then read the project notes linked below. Check `#status/active` for current work and `#status/done` for completed work.
+> **For LLMs**: Read this note, then read [[LLM.md]] for navigation and token rules. Read [[AGENTS.md]] before editing. Active work is tagged `#status/active`.
 
 ---
 
-## Vault Structure
+## TL;DR
 
-| Folder | Purpose |
-| :--- | :--- |
-| `Projects/` | One note per project. Named exactly like the project folder. |
-| `Reference/` | Reusable snippets, commands, configs, API notes. |
-| `Daily/` | Daily logs and quick scratch that should survive. |
-| `Archive/` | Completed, paused, or abandoned projects. |
-| `Templates/` | Note templates for new projects and daily logs. |
-| `AGENTS.md` | Vault governance rules — read before editing. |
+- One note per project in `Projects/`.
+- Root index lists status + one-line description for every project.
+- `Reference/` holds reusable snippets. `Daily/` holds logs. `Archive/` holds old projects.
+- Keep notes atomic. Link instead of duplicating. No secrets. No UI-state commits.
 
 ---
 
@@ -37,16 +33,32 @@ This vault tracks Linux-based personal projects, research, and reference materia
 ## Recently Updated
 
 - [[Projects/fb_manager]]
+- [[LLM.md]]
 - [[AGENTS.md]]
+
+---
+
+## Vault Layout
+
+| Folder / File | Purpose |
+| :--- | :--- |
+| `Projects/` | One note per project, named exactly like the project folder. |
+| `Reference/` | Reusable snippets, commands, configs, API notes. |
+| `Daily/` | Daily logs and scratch that should survive. |
+| `Archive/` | Completed, paused, or abandoned projects. |
+| `Templates/` | Note templates. |
+| [[README]] | This index. |
+| [[LLM.md]] | Rules for AI assistants. |
+| [[AGENTS.md]] | Vault governance. |
 
 ---
 
 ## How to Add a New Project
 
-1. Copy `Templates/project_template.md` to `Projects/<project_name>.md`.
-2. Fill in summary, status, tech stack, and source path.
+1. Copy `Templates/project_template.md` → `Projects/<project_name>.md`.
+2. Fill summary, status, tech stack, source path.
 3. Add a row to the Active Projects table above.
-4. Link related notes with `[[...]]`.
+4. Commit and push.
 
 ---
 

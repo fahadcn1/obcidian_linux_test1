@@ -113,7 +113,14 @@ python recorder.py
 
 ---
 
+## Recent Changes
+
+- 2026-09-07: Vault reference note created. Pipeline: extract → LLM score → reply/hide → history.
+
+---
+
 ## Related
 
-- [[../README]] — vault index
-- [[../AGENTS.md]] — vault governance
+- [[README]] — vault index
+- [[LLM.md]] — AI assistant rules
+- [[AGENTS.md]] — vault governance
